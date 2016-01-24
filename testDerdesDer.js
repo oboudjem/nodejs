@@ -56,8 +56,8 @@ app.get('/', function (req, res) {
 
 });
 
-var port = Number(process.env.PORT || 2001);
-var server = app.listen(port, function () {
+var port2 = Number(process.env.PORT || 2001);
+var server = app.listen(port2, function () {
   var host = server.address().address;
   var port = server.address().port;
 
